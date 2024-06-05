@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.tourney {
+    font-family: "Tourney", sans-serif;
+    line-height: 120%;
+}
+
+.bg-work {
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+
+.bg-work-item {
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    background-position: center;
+    object-fit: cover;
+}
+
+.bg-FAFAFA{
+    background-color: #FAFAFA;
+}
+
+@layer components {
+    .fs-2 {
+        @apply text-32px font-bold;
+    }
+
+    .fs-3 {
+        @apply text-28px font-bold;
+    }
+
+    .fs-4 {
+        @apply text-2xl;
+    }
+
+    .fs-5 {
+        @apply text-xl;
+    }
+
+    .fs-5-bold {
+        @apply text-xl font-bold;
+    }
+
+    .fs-6 {
+        @apply text-base font-normal;
+    }
+
+    .fs-6-bold {
+        @apply text-base font-bold;
+    }
+
+    .tourney-lg {
+        @apply tourney text-72px;
+    }
+
+    .tourney-sm {
+        @apply tourney text-48px;
+    }
+}
